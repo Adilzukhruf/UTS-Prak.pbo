@@ -1,0 +1,6 @@
+program yang saya buat adalah menghitung luas berbagai bentuk geometris, seperti persegi panjang, segitiga dan persegi 
+pada main shape saya menggunakan metode calculatorArea() untuk implementasi semua bentuk geometris
+kemudian saya memiliki kelas abstrak yang dimana ('polygon') masing masing meingimplementasi kan motode calculatorArea() sesuai dengan bentuk geometris nya
+dan saya memuliki class kongkrit (Rectangle, Triangle, Square) yang mewarisi dari kelas abstrak
+Polimorfisme diperlihatkan dalam kelas ShapeAreaCalculator, di mana saya menggunakan objek dari berbagai jenis bentuk geometris dan memanggil metode calculateArea() melalui objek antarmuka Shape.
+dan terkhir dalam kelas Main saya membuat objek dari berbagai jenis bentuk geometris dan menggunakan 'ShapeAreaCalculator' untuk mencetak luas masing masing bentuk
